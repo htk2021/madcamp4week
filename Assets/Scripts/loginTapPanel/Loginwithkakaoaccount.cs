@@ -1,15 +1,3 @@
-using UnityEngine;
-
-public class Loginwithkakaoaccount : MonoBehaviour
-{
-    public GameObject kakaoAccountLoginPanel; // 게임 계정 로그인 패널
-    public GameObject loginTabPanel; // 로그인 탭 패널
-
-    // "카카오 계정으로 로그인" 버튼 클릭 시 호출되는 함수
-    public void OnKakaoAccountLoginButtonClick()
-    {
-        kakaoAccountLoginPanel.SetActive(true); // 게임 계정 로그인 패널 활성화
-        loginTabPanel.SetActive(false); // 로그인 탭 패널 비활성화
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:01d7354576d8e19670220d7a673b4aac82f28bbd75d1c2b66162f921d8914684
+size 485

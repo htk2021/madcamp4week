@@ -1,14 +1,3 @@
-using UnityEngine;
-
-public class Loginwithgameaccount : MonoBehaviour
-{
-    public GameObject gameAccountLoginPanel; // 게임 계정 로그인 패널
-    public GameObject loginTabPanel; // 로그인 탭 패널
-
-    // "게임 계정으로 로그인" 버튼 클릭 시 호출되는 함수
-    public void OnGameAccountLoginButtonClick()
-    {
-        gameAccountLoginPanel.SetActive(true); // 게임 계정 로그인 패널 활성화
-        loginTabPanel.SetActive(false); // 로그인 탭 패널 비활성화
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9aa9bd012eee8517366199bc597140c9584e9fa179438c962816012fbad1ec9
+size 477
